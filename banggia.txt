@@ -1,0 +1,264 @@
+Phần mềm Desktop:	Thời gian: Từ 1 giờ
+Giá: Từ 500k
+Công nghệ: 13+
+Tính năng: 8+
+
+Landing Page:			Thời gian: Từ 1 giờ
+Giá: Từ 500k
+Công nghệ: 9+
+Tính năng: 8+
+
+Website thương mại:	Thời gian: Từ 3 ngày
+Giá: Từ 1000k
+Công nghệ: 9+
+Tính năng: 9+
+
+Tool Scraping Data:	Thời gian: Từ 1 giờ
+Giá: Từ 500k
+Công nghệ: 10+
+Tính năng: 8+
+Chrome Automation:	Thời gian: Từ 1 giờ
+Giá: Từ 500k
+Công nghệ: 8+
+Tính năng: 8+
+
+App androi&IOS:		Thời gian: Từ 1 tuần
+Giá: Từ 1000k
+Công nghệ: 8+
+Tính năng: 8+
+
+Dịch vụ khác:			Thời gian: Từ 30 phút
+Giá: Từ 200k
+
+
+Phần mềm quản lý bán hàng (POS)
+Phần mềm quản lý kho hàng, tồn kho
+Phần mềm quản lý nhân sự (HRM)
+Phần mềm kế toán, tài chính
+Phần mềm quản lý khách hàng (CRM)
+Phần mềm quản lý dự án
+Phần mềm quản lý phòng khám, bệnh viện
+Phần mềm quản lý nhà hàng, quán café
+Phần mềm quản lý khách sạn, homestay
+Phần mềm quản lý salon, spa, gym
+Phần mềm quản lý trường học, trung tâm
+Phần mềm quản lý bất động sản
+Phần mềm quản lý gara ô tô, xe máy
+Phần mềm quản lý xưởng sản xuất
+Phần mềm quản lý vận tải, logistics
+Phần mềm ERP doanh nghiệp
+Tool đổi tên file, rename hàng loạt
+Tool convert format (PDF, Excel, Word, CSV)
+Tool merge/split file tự động
+Tool backup dữ liệu tự động
+Tool đồng bộ dữ liệu giữa các hệ thống
+Tool mã hóa, giải mã file
+Tool nén và giải nén file hàng loạt
+Tool xử lý ảnh hàng loạt (resize, crop, watermark)
+Tool xử lý video (convert, trim, compress)
+Tool OCR nhận dạng chữ từ ảnh
+Tool text-to-speech, speech-to-text
+Phần mềm quản lý thư viện, kho tài liệu
+Phần mềm chấm công, tính lương
+Phần mềm quản lý hợp đồng, pháp lý
+Phần mềm in tem nhãn, mã vạch, QR code
+Phần mềm quản lý đội xe, GPS tracking
+Phần mềm chat nội bộ, truyền file LAN
+Phần mềm giám sát máy tính nhân viên
+Phần mềm điểm danh, nhận diện khuôn mặt
+Tool auto click, auto key, macro
+Tool gửi email hàng loạt (email marketing)
+Tool gửi SMS hàng loạt
+Tool tạo báo cáo tự động từ Excel/Database
+Phần mềm quản lý sân bóng, sân cầu lông
+Phần mềm quản lý cây xăng
+Phần mềm quản lý tiệm vàng, cầm đồ
+Phần mềm quản lý cho thuê (phòng trọ, xe, đồ)
+Phần mềm kiểm kê tài sản cố định
+Phần mềm POS cho nhà hàng, quán ăn
+Tool kiểm tra, so sánh dữ liệu 2 file
+Tool download, quản lý file từ cloud
+Phần mềm quản lý đơn hàng đa kênh
+Phần mềm quản lý công nợ, thu chi 
+
+Landing page bán hàng (sales page)
+Landing page thu thập lead (lead generation)
+Landing page giới thiệu sản phẩm
+Landing page khóa học, giáo dục
+Landing page sự kiện, hội thảo
+Landing page bất động sản
+Landing page dịch vụ y tế, thẩm mỹ
+Landing page nhà hàng, quán café
+Landing page du lịch, tour
+Landing page SaaS, phần mềm
+Landing page app mobile
+Landing page tuyển dụng
+Landing page ebook, tài liệu miễn phí
+Landing page đặt lịch hẹn
+Landing page mã giảm giá, voucher
+Landing page pre-launch, coming soon
+Landing page portfolio, cá nhân
+Landing page dịch vụ tài chính, bảo hiểm
+Landing page gym, yoga, fitness
+Landing page dịch vụ pháp lý, luật sư
+Landing page nội thất, xây dựng
+Landing page thời trang, mỹ phẩm
+Landing page ô tô, xe máy
+Landing page giới thiệu công ty (company profile)
+Landing page chương trình affiliate
+Landing page crowdfunding, gọi vốn
+Landing page webinar, livestream
+Landing page Black Friday, flash sale
+Landing page dịch vụ vận chuyển, logistics
+Landing page đăng ký membership, hội viên
+
+Website bán hàng thời trang
+Website bán mỹ phẩm, skincare
+Website bán thực phẩm, đồ uống
+Website bán điện thoại, điện tử
+Website bán phụ kiện, linh kiện
+Website bán nội thất, decor
+Website bán sách, văn phòng phẩm
+Website bán đồ handmade, quà tặng
+Website bán nông sản, đặc sản
+Website bán vật liệu xây dựng
+Website bán thuốc, dược phẩm (có giấy phép)
+Website bán đồ thể thao, outdoor
+Website bán đồ cho bé, mẹ và bé
+Website bán hoa tươi, quà sinh nhật
+Website bán đồ gia dụng, thiết bị nhà bếp
+Website bán xe, phụ tùng ô tô
+Website bán kính mắt, đồng hồ, trang sức
+Website bán thú cưng, phụ kiện pet
+Website bán khóa học online, sản phẩm số
+Website bán vé sự kiện, vé máy bay
+Website đấu giá online
+Website mua bán đồ cũ, second-hand
+Website B2B, bán sỉ
+Website marketplace (đa người bán)
+Website bán subscription, hội viên
+Website dropshipping
+Website bán dịch vụ, đặt lịch
+Website bán bảo hiểm online
+Website siêu thị mini, tạp hóa online
+Website bán vật tư, thiết bị công nghiệp
+
+Scraping giá sản phẩm (Shopee, Lazada, Tiki, Amazon)
+Scraping thông tin doanh nghiệp (SĐT, email, địa chỉ)
+Scraping review, đánh giá sản phẩm
+Scraping tin tuyển dụng (VietnamWorks, TopCV, LinkedIn)
+Scraping bất động sản (Batdongsan.com, Chotot)
+Scraping dữ liệu chứng khoán, crypto
+Scraping tin tức, bài viết theo keyword
+Scraping dữ liệu mạng xã hội (Facebook, Instagram, TikTok)
+Scraping menu, giá nhà hàng (GrabFood, ShopeeFood)
+Scraping dữ liệu du lịch (Booking, Agoda, Traveloka)
+Scraping danh bạ, Yellow Pages
+Scraping dữ liệu y tế, dược phẩm
+Scraping dữ liệu giáo dục, khóa học
+Scraping Google Maps (cửa hàng, SĐT, review)
+Scraping dữ liệu xe ô tô (Chợ Tốt, Bonbanh)
+Scraping dữ liệu thời tiết, môi trường
+Scraping dữ liệu thể thao, kết quả trận đấu
+Scraping patent, sở hữu trí tuệ
+Scraping dữ liệu pháp lý, văn bản luật
+Scraping hình ảnh, video từ website
+Scraping dữ liệu forum, cộng đồng
+Scraping RSS feed, blog tự động
+Scraping dữ liệu sản phẩm để so sánh giá
+Scraping thông tin đấu thầu, gói thầu
+Scraping dữ liệu API công khai
+
+Bot auto đăng bài Facebook (group, page, profile)
+Bot auto like, comment, share Facebook
+Bot auto follow, unfollow Instagram
+Bot auto đăng TikTok, YouTube
+Bot auto invite friend, join group
+Bot auto gửi tin nhắn Messenger, Zalo
+Bot auto reply comment, inbox
+Extension auto fill form đăng ký
+Extension auto click, auto submit
+Extension auto login nhiều tài khoản
+Bot auto đặt hàng Shopee, Lazada
+Bot auto check giá, so sánh giá
+Bot auto bidding quảng cáo
+Extension chặn quảng cáo tùy chỉnh
+Extension lưu và quản lý mật khẩu
+Bot auto gửi email theo danh sách
+Bot auto điền thông tin vận chuyển
+Extension screenshot trang web tự động
+Bot auto tải file, ảnh, video hàng loạt
+Extension highlight, ghi chú trên web
+Bot auto check-in, điểm danh online
+Bot auto đăng ký tài khoản hàng loạt
+Extension auto translate nội dung web
+Bot auto scrape + post (combo)
+Extension quản lý cookie, session
+Bot auto test website (QA automation)
+Extension toolbar tùy chỉnh cho workflow
+Bot auto canh deal, flash sale
+Extension auto save trang web thành PDF
+Bot auto tương tác Zalo OA, Zalo Shop
+
+App đặt hàng, giao đồ ăn
+App đặt xe (ride-hailing)
+App đặt lịch hẹn (salon, spa, gym)
+App quản lý nhà hàng, quán café
+App bán hàng online, e-commerce
+App mạng xã hội, dating
+App nhắn tin, video call
+App học tiếng Anh, ngoại ngữ
+App khóa học online, e-learning
+App đọc sách, truyện, tin tức
+App nghe nhạc, podcast
+App xem phim, streaming
+App game, giải trí
+App fitness, workout, yoga
+App theo dõi sức khỏe, calo, nước
+App quản lý tài chính cá nhân
+App ví điện tử, thanh toán
+App đầu tư, chứng khoán
+App bất động sản (mua, bán, cho thuê)
+App du lịch, đặt khách sạn
+App bản đồ, navigation
+App thời tiết, dự báo
+App quản lý công việc, to-do list
+App CRM, quản lý khách hàng
+App quản lý kho, tồn kho
+App chấm công, quản lý nhân sự
+App camera, chỉnh sửa ảnh
+App quét QR, mã vạch
+App AR (thực tế tăng cường)
+App IoT, smart home điều khiển thiết bị
+
+Tích hợp API thanh toán (VNPay, Momo, ZaloPay)
+Tích hợp API vận chuyển (GHN, GHTK, Viettel Post)
+Tích hợp API Zalo OA, Zalo Notification
+Tích hợp API Google (Maps, Sheets, Drive, Calendar)
+Tích hợp API Facebook, Instagram
+Tích hợp API OpenAI, ChatGPT
+Chatbot Telegram
+Chatbot Zalo OA
+Chatbot Facebook Messenger
+Chatbot website (Tawk.to, custom)
+Chatbot AI thông minh (GPT-powered)
+RPA tự động nhập liệu
+RPA tự động gửi email/báo cáo
+RPA tự động đồng bộ dữ liệu
+Migration dữ liệu Excel → Database
+Migration website cũ sang mới
+Migration từ WordPress sang React/Next.js
+Fix bug website, app, phần mềm
+Code review, tối ưu performance
+Refactoring code legacy
+Setup VPS, cloud server (AWS, GCP, DigitalOcean)
+Setup CI/CD pipeline (GitHub Actions, GitLab CI)
+Setup Docker, container hóa ứng dụng
+Setup monitoring, logging (Grafana, ELK)
+Viết unit test, integration test
+SEO audit và tối ưu website
+Setup email server (SMTP, Mailgun, SendGrid)
+Viết Google Apps Script, Excel VBA macro
+Tạo workflow Zapier, n8n, Make
+Blockchain, smart contract (Solidity)
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="aquaStroke" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10A8FF"/>
+      <stop offset="0.58" stop-color="#2F73FF"/>
+      <stop offset="1" stop-color="#4C63FF"/>
+    </linearGradient>
+    <linearGradient id="aquaWave" x1="12" y1="33" x2="52" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9BD6FF"/>
+      <stop offset="1" stop-color="#6A8FFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#FBFCFF" stroke="#D5DFF3" stroke-width="2"/>
+  <path d="M16.8 48.6L29.4 17.1C30.2 15.3 31.9 14.2 33.9 14.2C35.8 14.2 37.6 15.3 38.3 17.1L50.9 48.6" stroke="url(#aquaStroke)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.9 34.9H45.3" stroke="#3467EE" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M12.4 39.9C17.8 34.2 25.2 31.3 33.1 31.3C40.1 31.3 46.3 33.5 51.3 37.9" stroke="url(#aquaWave)" stroke-width="3.9" stroke-linecap="round"/>
+</svg>
