@@ -45,6 +45,10 @@
     <span id="scroll-progress-bar"></span>
   </div>
 
+  <div class="shoreline-flow" aria-hidden="true">
+    <canvas id="bubble-canvas" class="bg-bubble-canvas"></canvas>
+  </div>
+
   <header class="site-header">
     <div class="container nav-shell">
       <a class="brand" href="#hero" aria-label="AquaTech">
@@ -85,6 +89,12 @@
             trải nghiệm linh hoạt và sẵn cấu trúc để mở rộng backend khi dự án vào phase tăng trưởng.
           </p>
 
+          <div class="hero-mood" aria-hidden="true">
+            <span class="mood-chip chip-a">Ship nhanh</span>
+            <span class="mood-chip chip-b">Code gọn</span>
+            <span class="mood-chip chip-c">UI vui mắt</span>
+          </div>
+
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contact">Bắt đầu dự án</a>
             <a class="btn btn-secondary" href="#services">Xem năng lực dịch vụ</a>
@@ -124,6 +134,12 @@
           </div>
         </aside>
       </div>
+
+      <div class="hero-tide" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
+
     </section>
 
     <section class="section" id="services">
@@ -579,6 +595,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-  <script src="./assets/js/main.js" defer></script>
+  <script type="module" src="./assets/js/main.js"></script>
 </body>
 </html>
