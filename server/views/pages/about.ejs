@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<%- include("../partials/head") %>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <%- include("../partials/ocean-bg") %>
+
+  <%- include("../partials/header") %>
+
+  <main id="main-content">
+    <section class="section hero page-hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">About AquaTech</p>
+          <h1 class="hero-title">Team product engineering tập trung vào kết quả kinh doanh, không chỉ là giao code</h1>
+          <p class="hero-lead">
+            AquaTech được xây để giải bài toán triển khai nhanh cho doanh nghiệp đang cần website,
+            app, automation và data stack theo lộ trình tăng trưởng rõ ràng.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/lien-he">Đặt lịch trao đổi 30 phút</a>
+            <a class="btn btn-secondary" href="/case-studies">Xem dự án đã làm</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="30" data-suffix="+">30+</span></p>
+              <p class="stat-label">Project triển khai đã hoàn thành</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="9" data-suffix=" nhóm">9 nhóm</span></p>
+              <p class="stat-label">Năng lực dịch vụ full-cycle</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="5" data-suffix=" năm">5 năm</span></p>
+              <p class="stat-label">Kinh nghiệm trong sản phẩm số</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Nguyên tắc làm việc</h2>
+          <ul class="hero-checklist">
+            <li>Business first: mọi tính năng đều map vào KPI đầu ra</li>
+            <li>Lean stack: chọn công nghệ vừa đủ cho phase hiện tại</li>
+            <li>Delivery rhythm: chia sprint ngắn và review đều</li>
+            <li>Minh bạch estimate, rủi ro và tiến độ</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="values">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Giá trị cốt lõi</p>
+          <h2 class="section-title">Cách team ra quyết định mỗi ngày</h2>
+          <p class="section-subtitle">
+            Từ tư vấn scope đến triển khai thực tế, tất cả để tránh overbuild và giữ nhịp dự án đi đúng hướng.
+          </p>
+        </div>
+
+        <div class="tech-grid">
+          <article class="tech-card" data-animate>
+            <h3 class="card-title">Outcome over output</h3>
+            <p class="card-copy">KPI vận hành và KPI bán hàng được chốt trước khi team code dòng đầu tiên.</p>
+          </article>
+
+          <article class="tech-card" data-animate>
+            <h3 class="card-title">Simple architecture</h3>
+            <p class="card-copy">Ưu tiên giải pháp ít phụ thuộc, dễ handover và dễ scale theo từng phase.</p>
+          </article>
+
+          <article class="tech-card" data-animate>
+            <h3 class="card-title">Fast feedback loop</h3>
+            <p class="card-copy">Deliver từng phần nhỏ, lấy feedback liên tục để đồng bộ vision giữa hai bên.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team-stack">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Năng lực liên chức năng</p>
+          <h2 class="section-title">Cross-functional team cho toàn bộ chu trình sản phẩm</h2>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Product + Strategy</h3>
+            <p class="card-copy">Hỗ trợ framing scope, ước lượng effort và ưu tiên theo tác động kinh doanh.</p>
+            <ul class="card-list">
+              <li>Business requirement mapping</li>
+              <li>Roadmap theo phase tăng trưởng</li>
+              <li>Risk và dependency register</li>
+            </ul>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Engineering + Data</h3>
+            <p class="card-copy">Build stack web, app, backend, automation và ETL theo hướng dễ mở rộng.</p>
+            <ul class="card-list">
+              <li>Node.js, React, mobile stack</li>
+              <li>PostgreSQL, API design, auth</li>
+              <li>Scraping và automation workflow</li>
+            </ul>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Growth + Optimization</h3>
+            <p class="card-copy">Theo dõi metric sau launch để tiếp tục tối ưu conversion và vận hành.</p>
+            <ul class="card-list">
+              <li>Tracking setup theo funnel</li>
+              <li>A/B testing để tăng conversion</li>
+              <li>Technical SEO và page speed</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about-jump-pages">
+      <div class="container contact-shell">
+        <div class="section-head" data-animate>
+          <p class="kicker">Đi sâu theo chủ đề</p>
+          <h2 class="section-title">Chi tiết quy trình và công nghệ đã tách thành trang riêng</h2>
+          <p class="section-subtitle">
+            Bạn có thể xem đầy đủ khung delivery và stack thực chiến ở hai trang chuyên biệt để tiện đối chiếu theo nhu cầu.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/quy-trinh">Xem trang Quy trình</a>
+            <a class="btn btn-secondary" href="/cong-nghe">Xem trang Công nghệ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer") %>
+</body>
+</html>

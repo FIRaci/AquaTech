@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<%- include("../partials/head") %>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <%- include("../partials/ocean-bg") %>
+
+  <%- include("../partials/header") %>
+
+  <main id="main-content">
+    <section class="section hero page-hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">AquaTech Services</p>
+          <h1 class="hero-title">Bộ dịch vụ đầy đủ theo luồng product thực tế, sẵn sàng mở rộng theo từng phase</h1>
+          <p class="hero-lead">
+            Từ website, app mobile, desktop software đến scraping, automation và banner design,
+            tất cả được chuẩn hóa theo cùng một quy trình để triển khai nhanh và mở rộng bền.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/lien-he">Nhận đề xuất giải pháp</a>
+            <a class="btn btn-secondary" href="/bang-gia">Xem bảng giá cập nhật</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="9" data-suffix="+">9+</span></p>
+              <p class="stat-label">Nhóm dịch vụ chính</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="24" data-suffix="h">24h</span></p>
+              <p class="stat-label">Phản hồi hướng giải pháp</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="95" data-suffix="%">95%</span></p>
+              <p class="stat-label">Khách hàng tiếp tục hợp tác</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Bạn cần gì ở giai đoạn này?</h2>
+          <p>
+            Chốt mục tiêu kinh doanh trước, sau đó AquaTech sẽ đề xuất stack, estimate và milestone
+            theo độ khó thực tế thay vì báo giá chung chung.
+          </p>
+          <ul class="hero-checklist">
+            <li>Danh sách service được map theo KPI đầu ra</li>
+            <li>Mỗi service có route riêng để SEO và tracking</li>
+            <li>Form liên hệ đã nối backend API ngay trong phase này</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="all-services">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Danh mục</p>
+          <h2 class="section-title">Tất cả dịch vụ hiện có</h2>
+          <p class="section-subtitle">
+            Chọn service phù hợp để xem chi tiết phạm vi, stack sử dụng, quy trình và câu hỏi thường gặp.
+          </p>
+        </div>
+
+        <div class="service-grid service-grid-all">
+          <% services.forEach((service) => { %>
+            <article class="service-card" data-animate>
+              <div class="service-head">
+                <span class="service-icon service-icon-text" aria-hidden="true"><%= service.category.slice(0, 2).toUpperCase() %></span>
+                <h3 class="card-title"><%= service.name %></h3>
+              </div>
+
+              <p class="card-copy"><%= service.teaser %></p>
+
+              <div class="service-meta">
+                <span class="meta-pill"><%= service.price %></span>
+                <span class="meta-pill"><%= service.timeline %></span>
+              </div>
+
+              <ul class="card-list">
+                <% service.technologies.slice(0, 3).forEach((tech) => { %>
+                  <li><%= tech %></li>
+                <% }) %>
+              </ul>
+
+              <a class="card-link" href="/dich-vu/<%= service.slug %>">Xem chi tiết dịch vụ</a>
+            </article>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer") %>
+</body>
+</html>

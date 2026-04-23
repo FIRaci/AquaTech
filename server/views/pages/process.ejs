@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<%- include("../partials/head") %>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <%- include("../partials/ocean-bg") %>
+
+  <%- include("../partials/header") %>
+
+  <main id="main-content">
+    <section class="section hero page-hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">Quy trình triển khai</p>
+          <h1 class="hero-title">Một khung làm việc rõ đầu vào, rõ đầu ra để dự án đi nhanh mà vẫn chắc</h1>
+          <p class="hero-lead">
+            AquaTech vận hành theo 4 bước cố định để tránh overbuild, giảm rủi ro đổi scope giữa chừng
+            và giúp hai bên luôn nhìn thấy tiến độ bằng deliverable cụ thể.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/lien-he">Nhận kế hoạch triển khai theo scope</a>
+            <a class="btn btn-secondary" href="/case-studies">Xem case thực chiến</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="4" data-suffix=" bước">4 bước</span></p>
+              <p class="stat-label">Khung delivery chuẩn</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="2" data-suffix=" tuần">2 tuần</span></p>
+              <p class="stat-label">Độ dài sprint khuyến nghị</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="24" data-suffix="h">24h</span></p>
+              <p class="stat-label">Phản hồi định hướng đầu vào</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Nguyên tắc xuyên suốt</h2>
+          <ul class="hero-checklist">
+            <li>Ưu tiên KPI kinh doanh trước khi bàn đến tính năng</li>
+            <li>Scope chia theo milestone để kiểm soát ngân sách</li>
+            <li>Deliverable ngắn theo sprint, review liên tục</li>
+            <li>Minh bạch tiến độ, rủi ro và quyết định kỹ thuật</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Khung 4 bước</p>
+          <h2 class="section-title">Lộ trình triển khai chuẩn của AquaTech</h2>
+          <p class="section-subtitle">
+            Mỗi bước đều có checklist riêng để bạn bám tiến độ, biết rõ cái gì đã xong và cái gì cần quyết định tiếp.
+          </p>
+        </div>
+
+        <div class="process-shell" data-animate>
+          <div class="timeline-track" aria-hidden="true"></div>
+          <ol class="process-timeline">
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 01</p>
+              <h3 class="step-title">Discovery và chốt scope</h3>
+              <p class="step-copy">Làm rõ mục tiêu kinh doanh, user flow, dữ liệu đầu vào và mốc nghiệm thu.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 02</p>
+              <h3 class="step-title">Thiết kế giải pháp và prototype</h3>
+              <p class="step-copy">Khóa kiến trúc dữ liệu, luồng UX quan trọng và chuẩn tracking trước khi build.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 03</p>
+              <h3 class="step-title">Development theo sprint ngắn</h3>
+              <p class="step-copy">Triển khai theo milestone 1-2 tuần, có demo và QA đầu ra ở cuối mỗi sprint.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 04</p>
+              <h3 class="step-title">Go-live, handover và tối ưu</h3>
+              <p class="step-copy">Bàn giao tài liệu, checklist vận hành và roadmap mở rộng cho giai đoạn tiếp theo.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process-output">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Đầu ra theo giai đoạn</p>
+          <h2 class="section-title">Bạn nhận được gì sau từng bước?</h2>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Trước khi code</h3>
+            <ul class="card-list">
+              <li>Tài liệu scope, KPI và giả định quan trọng</li>
+              <li>Danh sách rủi ro và dependency cần xử lý</li>
+              <li>Ước lượng timeline và phân phase triển khai</li>
+            </ul>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Trong khi build</h3>
+            <ul class="card-list">
+              <li>Demo định kỳ theo sprint và feedback loop rõ</li>
+              <li>Checklist QA cho từng nhóm tính năng</li>
+              <li>Báo cáo tiến độ ngắn, tập trung vào đầu ra</li>
+            </ul>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Sau khi bàn giao</h3>
+            <ul class="card-list">
+              <li>Tài liệu kỹ thuật và hướng dẫn vận hành</li>
+              <li>Danh sách điểm cần tối ưu theo dữ liệu thực</li>
+              <li>Roadmap mở rộng theo ngân sách từng phase</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process-cta">
+      <div class="container contact-shell">
+        <div class="section-head" data-animate>
+          <p class="kicker">Bắt đầu đúng nhịp</p>
+          <h2 class="section-title">Bạn muốn nhận kế hoạch 4 bước áp vào dự án của mình?</h2>
+          <p class="section-subtitle">
+            Gửi brief ngắn để team map scope theo milestone và đề xuất stack phù hợp ngay trong 24 giờ.
+          </p>
+          <a class="btn btn-primary" href="/lien-he">Gửi brief dự án</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer") %>
+</body>
+</html>

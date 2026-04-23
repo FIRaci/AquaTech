@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaTech | Ocean Night Experience</title>
+  <meta name="description" content="AquaTech giao diện đại dương đêm: chữ trắng rõ ràng, nền xanh biển sâu, chuyển động nhẹ và nội dung sạch bản quyền.">
+  <meta name="theme-color" content="#03132f">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aquatech.vn/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:url" content="https://aquatech.vn/">
+  <meta property="og:title" content="AquaTech | Ocean Night Experience">
+  <meta property="og:description" content="Thiết kế theo theme đại dương đêm với điểm nhấn phát quang, giữ độ đọc rõ và sạch nội dung.">
+  <meta property="og:image" content="./assets/icons/aquatech-icon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AquaTech | Ocean Night Experience">
+  <meta name="twitter:description" content="UI/UX lấy cảm hứng biển đêm, tập trung độ rõ chữ và cảm giác cao cấp.">
+  <meta name="twitter:image" content="./assets/icons/aquatech-icon.svg">
+  <link rel="manifest" href="/assets/site-Dm0PLY19.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/assets/aquatech-icon-DVscF-Ab.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BZ_ZjXSc.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BpH2Gqo6.css">
+</head>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <div class="shoreline-flow" aria-hidden="true">
+    <canvas id="bubble-canvas" class="bg-bubble-canvas"></canvas>
+  </div>
+
+  <div class="ocean-atmosphere" aria-hidden="true">
+    <span class="depth-glow glow-a"></span>
+    <span class="depth-glow glow-b"></span>
+    <span class="depth-glow glow-c"></span>
+
+    <div class="jelly-cluster jelly-left">
+      <div class="jelly jelly-a">
+        <span class="jelly-bell"></span>
+        <span class="jelly-tentacles"><i></i><i></i><i></i></span>
+      </div>
+      <div class="jelly jelly-b">
+        <span class="jelly-bell"></span>
+        <span class="jelly-tentacles"><i></i><i></i><i></i></span>
+      </div>
+    </div>
+
+    <div class="jelly-cluster jelly-right">
+      <div class="jelly jelly-c">
+        <span class="jelly-bell"></span>
+        <span class="jelly-tentacles"><i></i><i></i><i></i></span>
+      </div>
+      <div class="jelly jelly-d">
+        <span class="jelly-bell"></span>
+        <span class="jelly-tentacles"><i></i><i></i><i></i></span>
+      </div>
+    </div>
+
+    <div class="reef-garden">
+      <span class="coral coral-a"></span>
+      <span class="coral coral-b"></span>
+      <span class="coral coral-c"></span>
+      <span class="coral coral-d"></span>
+    </div>
+
+    <div class="kelp-lines">
+      <span class="kelp kelp-a"></span>
+      <span class="kelp kelp-b"></span>
+      <span class="kelp kelp-c"></span>
+      <span class="kelp kelp-d"></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="/" aria-label="AquaTech">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2096%2096'%20fill='none'%3e%3cdefs%3e%3clinearGradient%20id='bgOcean'%20x1='12'%20y1='10'%20x2='84'%20y2='92'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%2304244E'/%3e%3cstop%20offset='0.52'%20stop-color='%23083A73'/%3e%3cstop%20offset='1'%20stop-color='%230A2C57'/%3e%3c/linearGradient%3e%3clinearGradient%20id='aGlow'%20x1='23'%20y1='22'%20x2='73'%20y2='80'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%23FFFFFF'/%3e%3cstop%20offset='1'%20stop-color='%23DDF3FF'/%3e%3c/linearGradient%3e%3clinearGradient%20id='accent'%20x1='36'%20y1='19'%20x2='63'%20y2='82'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%239CF3FF'/%3e%3cstop%20offset='1'%20stop-color='%23BFA9FF'/%3e%3c/linearGradient%3e%3c/defs%3e%3crect%20x='4'%20y='4'%20width='88'%20height='88'%20rx='22'%20fill='url(%23bgOcean)'/%3e%3ccircle%20cx='48'%20cy='50'%20r='35'%20fill='rgba(121,%20217,%20255,%200.08)'/%3e%3cpath%20d='M24%2071L43.8%2020.8C44.7%2018.6%2046.1%2017.5%2048%2017.5C49.9%2017.5%2051.3%2018.6%2052.2%2020.8L72%2071'%20stroke='url(%23aGlow)'%20stroke-width='5.6'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M31%2048.4H64.8'%20stroke='url(%23aGlow)'%20stroke-width='4.8'%20stroke-linecap='round'/%3e%3cpath%20d='M48%2024V72'%20stroke='url(%23aGlow)'%20stroke-width='5.6'%20stroke-linecap='round'/%3e%3cpath%20d='M37.8%2030.8H58.2'%20stroke='url(%23aGlow)'%20stroke-width='4.8'%20stroke-linecap='round'/%3e%3cpath%20d='M48%2072L39.5%2081.2H45.2V86H50.8V81.2H56.5L48%2072Z'%20stroke='url(%23aGlow)'%20stroke-width='4'%20stroke-linejoin='round'/%3e%3cpath%20d='M28.2%2056.6C21.2%2057.3%2018.5%2065.6%2023.6%2070.2'%20stroke='url(%23accent)'%20stroke-width='3.2'%20stroke-linecap='round'/%3e%3cpath%20d='M25.6%2061.3C19.7%2062.6%2018.2%2069%2022.2%2072.8'%20stroke='url(%23accent)'%20stroke-width='2.6'%20stroke-linecap='round'/%3e%3cpath%20d='M67.8%2056.6C74.8%2057.3%2077.5%2065.6%2072.4%2070.2'%20stroke='url(%23accent)'%20stroke-width='3.2'%20stroke-linecap='round'/%3e%3cpath%20d='M70.4%2061.3C76.3%2062.6%2077.8%2069%2073.8%2072.8'%20stroke='url(%23accent)'%20stroke-width='2.6'%20stroke-linecap='round'/%3e%3ccircle%20cx='35.6'%20cy='35.2'%20r='1.7'%20fill='%23DDF7FF'/%3e%3ccircle%20cx='60.4'%20cy='35.2'%20r='1.7'%20fill='%23DDF7FF'/%3e%3c/svg%3e" alt="" width="36" height="36" loading="eager" decoding="async">
+        </span>
+        <span class="brand-text">AquaTech</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Điều hướng chính">
+        <ul class="nav-links" id="nav-links">
+          <li><a class="is-current" href="/">Trang chủ</a></li>
+          <li><a href="/dich-vu">Dịch vụ</a></li>
+          <li><a href="/bang-gia">Bảng giá</a></li>
+          <li><a href="/quy-trinh">Quy trình</a></li>
+          <li><a href="/cong-nghe">Công nghệ</a></li>
+          <li><a href="/case-studies">Case Studies</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/lien-he">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-ghost desktop-only" href="/lien-he">Nhận tư vấn</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">AquaTech Ocean Night</p>
+          <h1 class="hero-title">Theme biển đêm: chữ trắng rõ, điểm nhấn phát quang, trải nghiệm gọn và sang</h1>
+          <p class="hero-lead">
+            Bản làm mới này tập trung UI/UX dễ đọc trên nền xanh biển sâu, giữ chuyển động mềm,
+            đồng thời dọn các đoạn nội dung nghi ngờ trùng lặp để chờ bạn cập nhật bản gốc.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/lien-he">Triển khai giao diện này</a>
+            <a class="btn btn-secondary" href="#content-cleanup">Xem phần nội dung đã dọn</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="1" data-suffix=" logo">1 logo</span></p>
+              <p class="stat-label">A quấn quanh trục mỏ neo chữ T</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="4" data-suffix=" lớp">4 lớp</span></p>
+              <p class="stat-label">Jellyfish, coral, kelp, bubble</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="0" data-suffix=" copy">0 copy</span></p>
+              <p class="stat-label">Đã để trống nội dung nghi ngờ trùng</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Ngôn ngữ thiết kế</h2>
+          <p>Đêm đại dương, ánh sáng sinh học, typography sáng rõ, tương phản cao nhưng không chói.</p>
+          <ul class="hero-checklist">
+            <li>Nền xanh biển + tím đêm, chữ trắng dễ đọc</li>
+            <li>Hiệu ứng phát quang đặt ở nền, không che nội dung</li>
+            <li>Card bán trong suốt để giữ chiều sâu không gian</li>
+            <li>Icon mới lấy ý tưởng A bạch tuộc ôm mỏ neo T</li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="hero-tide" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="section" id="content-cleanup">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Content Cleanup</p>
+          <h2 class="section-title">Các đoạn mô tả nghi ngờ copy đã được để trống</h2>
+          <p class="section-subtitle">Bạn điền lại nội dung gốc của riêng mình vào các vùng trống bên dưới.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card" data-animate>
+            <div class="service-head">
+              <span class="service-icon" aria-hidden="true">A1</span>
+              <h3 class="card-title">Khối mô tả dịch vụ 01</h3>
+            </div>
+            <p class="card-copy content-blank"></p>
+            <p class="card-copy content-blank"></p>
+          </article>
+
+          <article class="service-card" data-animate>
+            <div class="service-head">
+              <span class="service-icon" aria-hidden="true">A2</span>
+              <h3 class="card-title">Khối mô tả dịch vụ 02</h3>
+            </div>
+            <p class="card-copy content-blank"></p>
+            <p class="card-copy content-blank"></p>
+          </article>
+
+          <article class="service-card" data-animate>
+            <div class="service-head">
+              <span class="service-icon" aria-hidden="true">A3</span>
+              <h3 class="card-title">Khối mô tả dịch vụ 03</h3>
+            </div>
+            <p class="card-copy content-blank"></p>
+            <p class="card-copy content-blank"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="showcase">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Ocean Visual</p>
+          <h2 class="section-title">Nền đại dương nhiều lớp nhưng không cản trở đọc thông tin</h2>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card" data-animate>
+            <h3>Jelly Lights</h3>
+            <p class="content-blank"></p>
+          </article>
+          <article class="showcase-card" data-animate>
+            <h3>Coral Garden</h3>
+            <p class="content-blank"></p>
+          </article>
+          <article class="showcase-card" data-animate>
+            <h3>Kelp Motion</h3>
+            <p class="content-blank"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Quy trình mới</p>
+          <h2 class="section-title">Làm sạch nội dung, nâng cấp thẩm mỹ, rồi mới chốt bản cuối</h2>
+        </div>
+
+        <div class="process-shell" data-animate>
+          <div class="timeline-track" aria-hidden="true"></div>
+          <ol class="process-timeline">
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 01</p>
+              <h3 class="step-title">Lọc nội dung</h3>
+              <p class="step-copy">Giữ lại tiêu đề cần thiết, xóa mô tả nghi ngờ trùng lặp.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 02</p>
+              <h3 class="step-title">Đặt lại giao diện</h3>
+              <p class="step-copy">Chuyển sang tone biển đêm, chữ sáng và khoảng thở lớn hơn.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 03</p>
+              <h3 class="step-title">Cân bằng chuyển động</h3>
+              <p class="step-copy">Hiệu ứng nền nhiều lớp nhưng luôn ưu tiên khả năng đọc.</p>
+            </li>
+            <li class="process-step" data-animate>
+              <p class="step-index">Bước 04</p>
+              <h3 class="step-title">Bạn điền nội dung gốc</h3>
+              <p class="step-copy">Các vùng trống sẵn sàng để thay bằng nội dung chính chủ.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="project-checklist">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Project Checklist</p>
+          <h2 class="section-title">Checklist đợt làm mới</h2>
+        </div>
+        <ul class="project-checklist" data-animate>
+          <li><span>Rebuild homepage HTML skeleton</span><strong>Done</strong></li>
+          <li><span>Create cinematic CSS system</span><strong>Done</strong></li>
+          <li><span>Implement GSAP scroll animations</span><strong>Done</strong></li>
+          <li><span>Remove suspected copied content</span><strong>Done</strong></li>
+          <li><span>Validate build and errors</span><strong>Pending</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-shell">
+        <div class="section-head" data-animate>
+          <p class="kicker">Liên hệ</p>
+          <h2 class="section-title">Gửi nội dung gốc của bạn, AquaTech sẽ ráp lại bản cuối theo giao diện mới</h2>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-panel" data-animate>
+            <h3>Kết nối nhanh</h3>
+            <p>Giữ giao diện này, thay nội dung chính chủ rồi triển khai bản chốt.</p>
+            <ul class="contact-list">
+              <li>Hotline: <a href="tel:+84964784841">+84 964 784 841</a></li>
+              <li>Email: <a href="mailto:hello@aquatech.vn">hello@aquatech.vn</a></li>
+              <li>Zalo: <a href="https://zalo.me/84964784841" target="_blank" rel="noreferrer">zalo.me/84964784841</a></li>
+              <li>Telegram: <a href="https://t.me/khukhocom" target="_blank" rel="noreferrer">@khukhocom</a></li>
+            </ul>
+          </aside>
+
+          <div class="contact-panel" data-animate>
+            <form class="contact-form" data-api-form="lead" novalidate>
+              <input type="hidden" name="source_page" value="/">
+              <div class="field">
+                <label for="full-name">Họ và tên</label>
+                <input id="full-name" name="full_name" type="text" placeholder="Nguyễn Văn A" required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="ban@congty.com" required>
+              </div>
+
+              <div class="field">
+                <label for="service">Dịch vụ quan tâm</label>
+                <select id="service" name="service_interest" required>
+                  <option value="">Chọn dịch vụ</option>
+                  <option value="landing-page">Website và Landing Page</option>
+                  <option value="website-thuong-mai">Website thương mại</option>
+                  <option value="phan-mem-desktop">Phần mềm Desktop</option>
+                  <option value="chrome-automation">Automation và Bot</option>
+                  <option value="tool-scraping">Tool Scraping Data</option>
+                  <option value="app-mobile">App Android và iOS (native/cross-platform)</option>
+                  <option value="code-tool">Code tool theo yêu cầu</option>
+                  <option value="thiet-ke-banner">Thiết kế banner</option>
+                  <option value="dich-vu-khac">Dịch vụ khác</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">Nội dung chính chủ bạn muốn điền</label>
+                <textarea id="message" name="message" placeholder="Dán nội dung gốc tại đây để team đưa vào bản cuối..."></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Gửi yêu cầu tư vấn</button>
+              <p class="form-note" data-form-status role="status" aria-live="polite">AquaTech sẽ phản hồi sau khi nhận brief.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>AquaTech © <span id="year"></span>. Ocean night interface edition.</p>
+      <div class="footer-links">
+        <a href="/">Trang chủ</a>
+        <a href="/dich-vu">Dịch vụ</a>
+        <a href="/bang-gia">Bảng giá</a>
+        <a href="/quy-trinh">Quy trình</a>
+        <a href="/cong-nghe">Công nghệ</a>
+        <a href="/about">About</a>
+        <a href="/case-studies">Case Studies</a>
+        <a href="/lien-he">Liên hệ</a>
+        <a href="./banggia.txt">Bảng giá text</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+</body>
+</html>

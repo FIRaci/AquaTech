@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<%- include("../partials/head") %>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <%- include("../partials/ocean-bg") %>
+
+  <%- include("../partials/header") %>
+
+  <main id="main-content">
+    <section class="section hero page-hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">Liên hệ triển khai</p>
+          <h1 class="hero-title">Gửi brief trong 2 phút, nhận hướng giải pháp trong 24h</h1>
+          <p class="hero-lead">
+            AquaTech sẽ map nhu cầu của bạn sang stack, timeline và estimate theo phase.
+            Mục tiêu là để bạn ra quyết định nhanh mà vẫn kiểm soát được chi phí.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+84964784841">Gọi ngay +84 964 784 841</a>
+            <a class="btn btn-secondary" href="/dich-vu">Xem tất cả dịch vụ</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Kênh kết nối</h2>
+          <ul class="contact-list">
+            <li>Hotline: <a href="tel:+84964784841">+84 964 784 841</a></li>
+            <li>Email: <a href="mailto:hello@aquatech.vn">hello@aquatech.vn</a></li>
+            <li>Zalo: <a href="https://zalo.me/84964784841" target="_blank" rel="noreferrer">zalo.me/84964784841</a></li>
+            <li>Telegram: <a href="https://t.me/khukhocom" target="_blank" rel="noreferrer">@khukhocom</a></li>
+          </ul>
+          <p class="card-copy">Nếu bạn đang cần task gấp, có thể gửi ngay scope rút gọn để ưu tiên xếp lịch.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="contact-form-page">
+      <div class="container contact-shell">
+        <div class="section-head" data-animate>
+          <p class="kicker">Form yêu cầu</p>
+          <h2 class="section-title">Thông tin càng rõ, estimate càng sát</h2>
+          <p class="section-subtitle">
+            Ưu tiên ghi rõ mục tiêu kinh doanh, feature bắt buộc và mốc deadline.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-panel" data-animate>
+            <h3>Checklist trước khi gửi</h3>
+            <ul class="card-list">
+              <li>Bạn muốn tạo lead, bán hàng hay tự động hóa quy trình?</li>
+              <li>Dự án cần bản MVP hay bản chạy thật ngay?</li>
+              <li>Có hệ thống cũ nào cần kết nối không?</li>
+              <li>Độ ưu tiên là tốc độ, chi phí hay khả năng mở rộng?</li>
+            </ul>
+          </aside>
+
+          <div class="contact-panel" data-animate>
+            <form class="contact-form" data-api-form="lead" novalidate>
+              <input type="hidden" name="source_page" value="/lien-he">
+
+              <div class="field">
+                <label for="full-name">Họ và tên</label>
+                <input id="full-name" name="full_name" type="text" placeholder="Nguyễn Văn A" required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="ban@congty.com" required>
+              </div>
+
+              <div class="field">
+                <label for="service">Dịch vụ quan tâm</label>
+                <select id="service" name="service_interest" data-prefill="service" required>
+                  <option value="">Chọn dịch vụ</option>
+                  <% services.forEach((service) => { %>
+                    <option value="<%= service.slug %>"><%= service.name %></option>
+                  <% }) %>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">Mô tả nhanh yêu cầu</label>
+                <textarea id="message" name="message" placeholder="Mục tiêu, tính năng chính, deadline mong muốn..."></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Gửi yêu cầu tư vấn</button>
+              <p class="form-note" data-form-status role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer") %>
+</body>
+</html>

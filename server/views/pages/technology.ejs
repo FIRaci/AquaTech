@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<%- include("../partials/head") %>
+<body class="night-ocean">
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
+
+  <%- include("../partials/ocean-bg") %>
+
+  <%- include("../partials/header") %>
+
+  <main id="main-content">
+    <section class="section hero page-hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-hero>
+          <p class="hero-kicker">Công nghệ sử dụng</p>
+          <h1 class="hero-title">Stack thực chiến cho web, app, automation và data pipeline</h1>
+          <p class="hero-lead">
+            AquaTech không chọn công nghệ theo trào lưu. Mỗi lựa chọn đều dựa trên mục tiêu,
+            độ phức tạp vận hành và khả năng mở rộng theo từng phase tăng trưởng.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/lien-he">Nhận đề xuất stack cho dự án</a>
+            <a class="btn btn-secondary" href="/dich-vu">Xem danh mục dịch vụ</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="5" data-suffix=" cụm">5 cụm</span></p>
+              <p class="stat-label">Nhóm năng lực chính</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="20" data-suffix="+">20+</span></p>
+              <p class="stat-label">Công nghệ đang vận hành</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-value"><span data-count="3" data-suffix=" lớp">3 lớp</span></p>
+              <p class="stat-label">Frontend, Backend, Data</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-hero>
+          <h2>Nguyên tắc chọn stack</h2>
+          <ul class="hero-checklist">
+            <li>Đủ dùng cho phase hiện tại, không over-engineer</li>
+            <li>Dễ onboarding, dễ bàn giao cho team in-house</li>
+            <li>Tách lớp rõ ràng để mở rộng không phải đập lại</li>
+            <li>Ưu tiên hiệu năng thật trên thiết bị thật</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="stack-core">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Core stack</p>
+          <h2 class="section-title">Năng lực kỹ thuật theo từng lớp hệ thống</h2>
+        </div>
+
+        <div class="tech-grid">
+          <article class="tech-card" data-animate>
+            <h3 class="tech-title">Frontend Experience</h3>
+            <p class="tech-copy">Tối ưu cảm giác dùng thật, tốc độ tải và khả năng chuyển đổi.</p>
+            <ul class="tech-list">
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>GSAP, ScrollTrigger</li>
+              <li>React, Vite</li>
+              <li>SEO technical baseline</li>
+            </ul>
+          </article>
+
+          <article class="tech-card" data-animate>
+            <h3 class="tech-title">Backend và API</h3>
+            <p class="tech-copy">Thiết kế API rõ ràng để web/app và automation có thể dùng chung dữ liệu.</p>
+            <ul class="tech-list">
+              <li>Node.js, Express</li>
+              <li>Elysia.js</li>
+              <li>Prisma ORM</li>
+              <li>Auth và rate limiting</li>
+            </ul>
+          </article>
+
+          <article class="tech-card" data-animate>
+            <h3 class="tech-title">Data và Automation</h3>
+            <p class="tech-copy">Tạo pipeline thu thập, làm sạch và kích hoạt workflow vận hành tự động.</p>
+            <ul class="tech-list">
+              <li>Playwright, Puppeteer</li>
+              <li>Python crawler</li>
+              <li>n8n workflow</li>
+              <li>CSV, BI dashboard, scheduling</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tech-delivery">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker">Delivery model</p>
+          <h2 class="section-title">Cách công nghệ được đưa vào vận hành</h2>
+          <p class="section-subtitle">
+            Không chỉ code xong là kết thúc. Team tập trung vào khả năng chạy thật, đo được và mở rộng được.
+          </p>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Build theo milestone</h3>
+            <p class="card-copy">Mỗi cụm tính năng đều có demo và checklist QA trước khi chốt.</p>
+            <div class="metric-row">
+              <span class="metric">Review theo sprint</span>
+              <span class="metric">Tiến độ minh bạch</span>
+            </div>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Quan sát sau launch</h3>
+            <p class="card-copy">Theo dõi chỉ số vận hành để tối ưu luồng chuyển đổi và hiệu năng.</p>
+            <div class="metric-row">
+              <span class="metric">Tracking theo funnel</span>
+              <span class="metric">Alert theo ngưỡng</span>
+            </div>
+          </article>
+
+          <article class="showcase-card" data-animate>
+            <h3 class="card-title">Sẵn sàng mở rộng</h3>
+            <p class="card-copy">Kiến trúc tách lớp giúp thêm module mới mà không phá hệ thống cũ.</p>
+            <div class="metric-row">
+              <span class="metric">API-first</span>
+              <span class="metric">Scale theo phase</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tech-cta">
+      <div class="container contact-shell">
+        <div class="section-head" data-animate>
+          <p class="kicker">Map stack theo mục tiêu</p>
+          <h2 class="section-title">Cần team đề xuất stack phù hợp với budget và deadline hiện tại?</h2>
+          <p class="section-subtitle">
+            Gửi mục tiêu kinh doanh, hệ thống đang có và mốc thời gian để nhận phương án kỹ thuật khả thi nhất.
+          </p>
+          <a class="btn btn-primary" href="/lien-he">Nhận tư vấn công nghệ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer") %>
+</body>
+</html>

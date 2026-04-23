@@ -1,0 +1,228 @@
+AquaTech - Bảng giá cập nhật (tham chiếu)
+
+Lưu ý:
+- Giá chốt cuối cùng phụ thuộc scope, dữ liệu đầu vào, số lần feedback và deadline.
+- Báo giá có hiệu lực theo sprint hiện tại, có thể điều chỉnh theo workload.
+
+================================================================
+1) PHẦN MỀM DESKTOP
+================================================================
+Basic
+- Đặc điểm:
+  + 1-3 chức năng chính
+  + Giao diện đơn giản
+  + Lưu dữ liệu local
+  + Không cần login
+  + Không kết nối server
+  + Code sạch, chạy ổn định
+- Ngày: 1-2 ngày
+- Giá: 700K - 1.500K
+
+Standard
+- Đặc điểm:
+  + 3-5 chức năng (CRUD đầy đủ)
+  + UI rõ ràng, dễ dùng
+  + Có database (MySQL/SQLite)
+  + Có login cơ bản
+  + Có validate dữ liệu
+  + Xuất file (Excel/PDF cơ bản)
+- Ngày: 3-5 ngày
+- Giá: 2.000K - 4.000K
+
+Advanced
+- Đặc điểm:
+  + 6+ chức năng (full nghiệp vụ)
+  + Phân quyền (admin/user)
+  + Database chuẩn (MySQL/PostgreSQL)
+  + Backup dữ liệu
+  + UI custom đẹp hơn
+  + Tối ưu hiệu năng, có thể tích hợp API
+- Ngày: 1-2 tuần
+- Giá: 5.000K+
+
+================================================================
+2) LANDING PAGE
+================================================================
+Basic
+- Đặc điểm:
+  + 1 trang duy nhất
+  + HTML/CSS cơ bản
+  + Có form liên hệ
+  + Responsive cơ bản
+- Ngày: 1 ngày
+- Giá: 500K - 800K
+
+Standard
+- Đặc điểm:
+  + UI đẹp (thiết kế theo brief)
+  + Responsive chuẩn mobile
+  + Hiệu ứng scroll animation
+  + Tối ưu tốc độ
+  + Form gửi email
+- Ngày: 2-3 ngày
+- Giá: 1.000K - 2.300K
+
+Advanced
+- Đặc điểm:
+  + Chuẩn SEO (meta, schema)
+  + Tối ưu conversion (CTA)
+  + Animation nâng cao
+  + Kết nối Facebook Pixel/Google Analytics
+  + Load nhanh dưới 3s
+- Ngày: 3-5 ngày
+- Giá: 2.700K+
+
+================================================================
+3) WEBSITE THƯƠNG MẠI
+================================================================
+Basic
+- Đặc điểm:
+  + Trang sản phẩm
+  + Giỏ hàng đơn giản
+  + Không login
+  + Admin chỉnh sản phẩm
+- Ngày: 3-5 ngày
+- Giá: 2.900K - 4.500K
+
+Standard
+- Đặc điểm:
+  + Login/đăng ký
+  + Giỏ hàng + thanh toán
+  + Trang admin (quản lý đơn hàng)
+  + Tìm kiếm sản phẩm
+  + Responsive đầy đủ
+- Ngày: 1-2 tuần
+- Giá: 6.000K - 12.000K
+
+Advanced
+- Đặc điểm:
+  + Full hệ thống (Shopee mini)
+  + Phân quyền user/admin
+  + Thanh toán online (Momo, VNPay)
+  + API backend riêng
+  + Bảo mật + tối ưu
+  + Dashboard thống kê
+- Ngày: 2-4 tuần
+- Giá: 15.000K+
+
+================================================================
+4) APP ANDROID & IOS
+================================================================
+Basic
+- Đặc điểm:
+  + 1 chức năng chính
+  + UI đơn giản
+  + Không backend (local data)
+- Ngày: 1-2 tuần
+- Giá: 3.000K - 7.000K
+
+Standard
+- Đặc điểm:
+  + CRUD đầy đủ
+  + Login/register
+  + Kết nối API
+  + UI đẹp cơ bản
+  + Push notification cơ bản
+- Ngày: 2-4 tuần
+- Giá: 9.000K - 18.000K
+
+Advanced
+- Đặc điểm:
+  + Full app thực tế
+  + Backend riêng (Spring Boot/Node.js)
+  + Realtime (chat/thông báo)
+  + Tối ưu performance
+  + Hỗ trợ publish lên store
+- Ngày: 1-2 tháng
+- Giá: 20.000K+
+
+================================================================
+5) TOOL SCRAPING DATA
+================================================================
+Basic
+- Đặc điểm:
+  + Crawl 1 website (tĩnh, anti-bot nhẹ)
+  + Lấy dữ liệu cơ bản: tên, giá, link
+  + Xuất Excel/CSV
+  + Chạy 1 lần
+- Ngày: 1-2 ngày
+- Giá: 500K - 1.500K
+
+Standard
+- Đặc điểm:
+  + Crawl nhiều trang (pagination)
+  + Lọc dữ liệu theo yêu cầu
+  + Xử lý data (loại trùng, format)
+  + Xuất Excel đẹp (cột rõ ràng)
+  + Có script chạy lại
+- Ngày: 2-5 ngày
+- Giá: 2.000K - 5.000K
+
+Advanced
+- Đặc điểm:
+  + Crawl nhiều website
+  + Bypass cơ bản (anti-bot nhẹ)
+  + Tự động chạy theo lịch
+  + Lưu database (MySQL)
+  + API lấy dữ liệu
+  + Dashboard xem data
+- Ngày: 1-2 tuần
+- Giá: 6.000K - 15.000K+
+
+================================================================
+6) CHROME AUTOMATION
+================================================================
+Basic
+- Đặc điểm:
+  + Tự động mở web
+  + Login tài khoản
+  + Click/nhập liệu tự động
+  + Chạy 1 luồng cố định
+- Ngày: 1-2 ngày
+- Giá: 500K - 2.000K
+
+Standard
+- Đặc điểm:
+  + Xử lý nhiều bước logic
+  + Loop nhiều tài khoản
+  + Đọc dữ liệu từ Excel
+  + Có log hoạt động
+  + Xử lý lỗi cơ bản
+- Ngày: 3-7 ngày
+- Giá: 3.000K - 7.000K
+
+Advanced
+- Đặc điểm:
+  + Điều khiển nhiều browser
+  + Proxy/đổi IP
+  + Kịch bản phức tạp
+  + GUI điều khiển
+  + Chạy nền/scheduler
+  + Tích hợp scraping + automation
+- Ngày: 1-3 tuần
+- Giá: 8.000K - 20.000K+
+
+================================================================
+7) DỊCH VỤ KHÁC
+================================================================
+Basic
+- Đặc điểm:
+  + Fix bug nhỏ
+  + Chỉnh sửa giao diện
+- Ngày: dưới 1h
+- Giá: 300K
+
+Standard
+- Đặc điểm:
+  + Viết tool automation
+  + Scraping data
+- Ngày: 10h-36h
+- Giá: 800K
+
+Advanced
+- Đặc điểm:
+  + Bot tự động (Facebook, Shopee...)
+  + Hệ thống automation lớn
+  + Tích hợp AI
+- Ngày: 1 tuần
+- Giá: 2.400K
