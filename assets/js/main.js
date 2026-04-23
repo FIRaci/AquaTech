@@ -418,106 +418,7 @@ const initBubbleField = (canvas, prefersReducedMotion, options = {}) => {
   window.requestAnimationFrame(animate);
 };
 
-const initDynamicJellyfish = (prefersReducedMotion) => {
-  const container = document.getElementById("jelly-field");
-  if (!container) return;
 
-  const isDesktop = window.innerWidth > 860;
-  const numJellyfish = isDesktop ? 55 : 28;
-  const jellyfishes = [];
-
-  // Vivid bioluminescent palettes [r,g,b]
-  const palettes = [
-    [111, 224, 255], // cyan
-    [160, 130, 255], // violet
-    [100, 255, 210], // sea-green
-    [255, 140, 200], // pink
-    [255, 210, 100], // amber
-    [140, 200, 255], // sky blue
-    [200, 255, 150], // lime
-    [255, 170, 130], // coral
-    [180, 140, 255], // lavender
-    [100, 230, 200], // teal
-  ];
-
-  for (let i = 0; i < numJellyfish; i++) {
-    const jelly = document.createElement("div");
-    jelly.className = "jelly";
-
-    const rgb = palettes[Math.floor(Math.random() * palettes.length)];
-    const size = isDesktop
-      ? (20 + Math.random() * 32) // 20-52px desktop
-      : (14 + Math.random() * 22); // 14-36px mobile
-
-    jelly.innerHTML = `<span class="jelly-bell"></span>`;
-
-    // Per-jellyfish color via CSS var, drives the jellyPulse keyframe colors
-    jelly.style.setProperty('--jelly-rgb', rgb.join(','));
-    jelly.style.setProperty('--jelly-size', `${size}px`);
-    jelly.style.position = 'fixed';
-    jelly.style.zIndex = '3';
-    jelly.style.pointerEvents = 'none';
-    jelly.style.willChange = 'transform';
-    jelly.style.opacity = '0';
-    jelly.style.transition = 'opacity 1.2s ease';
-
-    // Stagger the CSS pulse animation so not all jellies pulse in sync
-    const bell = jelly.querySelector('.jelly-bell');
-    if (bell) {
-      bell.style.animationDelay = `${-(Math.random() * 2.4).toFixed(2)}s`;
-      // slightly vary pulse speed per jellyfish (2s-3.2s)
-      bell.style.animationDuration = `${(2.0 + Math.random() * 1.2).toFixed(2)}s`;
-    }
-
-    const x = Math.random() * window.innerWidth;
-    const y = Math.random() * window.innerHeight;
-    const angle = Math.random() * Math.PI * 2;
-    const speed = prefersReducedMotion ? 0 : (0.08 + Math.random() * 0.22);
-    const vx = Math.cos(angle) * speed;
-    const vy = Math.sin(angle) * speed;
-    const pulsePhase = Math.random() * Math.PI * 2;
-    const freq = 700 + Math.random() * 500;
-
-    container.appendChild(jelly);
-    jellyfishes.push({ el: jelly, x, y, vx, vy, angle, pulsePhase, freq, size });
-
-    // Staggered fade in
-    setTimeout(() => { jelly.style.opacity = '0.92'; }, i * 60);
-  }
-
-  let lastTime = performance.now();
-  const animateJellyfish = (now) => {
-    const dt = Math.min((now - lastTime) / 16.666, 2.3);
-    lastTime = now;
-
-    const w = window.innerWidth;
-    const h = window.innerHeight;
-
-    jellyfishes.forEach(j => {
-      // Locomotion burst: sine-wave speed modulation mimics real pulse swimming
-      const burstCycle = prefersReducedMotion ? 1 : (1 + 0.75 * Math.abs(Math.sin(now / j.freq + j.pulsePhase)));
-
-      j.x += j.vx * dt * burstCycle;
-      j.y += j.vy * dt * burstCycle;
-
-      const buffer = j.size * 2.5;
-      if (j.x < -buffer) j.x = w + buffer;
-      else if (j.x > w + buffer) j.x = -buffer;
-      if (j.y < -buffer) j.y = h + buffer;
-      else if (j.y > h + buffer) j.y = -buffer;
-
-      // Rotate so the bell dome faces direction of travel
-      const rotationDeg = (j.angle * 180 / Math.PI) + 90;
-      const wobble = prefersReducedMotion ? 0 : (3.5 * Math.sin(now / 1800 + j.pulsePhase));
-
-      j.el.style.transform = `translate3d(${j.x}px, ${j.y}px, 0) rotate(${rotationDeg + wobble}deg)`;
-    });
-
-    if (!prefersReducedMotion) requestAnimationFrame(animateJellyfish);
-  };
-
-  requestAnimationFrame(animateJellyfish);
-};
 
 (() => {
   window.__AQUATECH_MAIN_LOADED = true;
@@ -539,7 +440,7 @@ const initDynamicJellyfish = (prefersReducedMotion) => {
     );
   }
 
-  initDynamicJellyfish(prefersReducedMotion);
+
 
   if (yearLabel) {
     yearLabel.textContent = String(new Date().getFullYear());
