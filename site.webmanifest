@@ -8,7 +8,7 @@
   "theme_color": "#2f63ff",
   "icons": [
     {
-      "src": "./assets/icons/aquatech-icon.svg",
+      "src": "./assets/icons/logo.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

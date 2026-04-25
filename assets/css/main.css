@@ -278,7 +278,6 @@ main,
   width: 36px;
   height: 36px;
   border-radius: 11px;
-  box-shadow: 0 10px 24px rgba(50, 87, 188, 0.18);
 }
 
 .brand-mark svg,
@@ -1846,11 +1845,15 @@ textarea:focus-visible {
   }
 
   .night-ocean .brand-mark {
-    box-shadow: 0 0 0 1px rgba(151, 211, 255, 0.34), 0 10px 22px rgba(2, 10, 28, 0.6);
+    box-shadow: none;
   }
 
   .night-ocean .brand-text {
-    color: #f3f8ff;
+    background: linear-gradient(90deg, #06b6d4, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     letter-spacing: 0.04em;
   }
 
